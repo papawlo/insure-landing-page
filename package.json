@@ -1,0 +1,66 @@
+{
+  "name": "four-card-feature-section",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "webpack-dev-server --config webpack.dev.js",
+    "dev": "webpack-dashboard -- webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papawlo/four-card-feature-section.git"
+  },
+  "keywords": [],
+  "author": "Papawlo",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "glob": "^7.1.6",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "resolve-url-loader": "^3.1.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dashboard": "^3.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {},
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox ESR"
+    ],
+    "legacyBrowsers": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox ESR"
+    ],
+    "modernBrowsers": [
+      "last 2 Chrome versions",
+      "not Chrome < 60",
+      "last 2 Safari versions",
+      "not Safari < 10.1",
+      "last 2 iOS versions",
+      "not iOS < 10.3",
+      "last 2 Firefox versions",
+      "not Firefox < 54",
+      "last 2 Edge versions",
+      "not Edge < 15"
+    ]
+  }
+}
