@@ -21,12 +21,7 @@
           <a href="/" class="logo-link">
             <img src="./images/logo.svg" alt="logo" />
           </a>
-          <button type="menu" id="toggle-menu">
-            <img src="./images/icon-hamburger.svg" alt="menu" />
-          </button>
-        </div>
-      </div>
-          <nav class="nav" id="nav">
+          <nav class="nav" id="desktop-nav">
             <ul>
               <li>
                 <a href="#">How we work</a>
@@ -38,21 +33,54 @@
                 <a href="#">Account</a>
               </li>
               <li>
-             <a href="#">View plans</a>
+                <a href="#">View plans</a>
               </li>
             </ul>
           </nav>
+          <button type="menu" id="toggle-menu">
+            <img src="./images/icon-hamburger.svg" alt="menu" />
+          </button>
+        </div>
+      </div>
+      <nav class="nav" id="mobile-nav">
+        <ul>
+          <li>
+            <a href="#">How we work</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Account</a>
+          </li>
+          <li>
+            <a href="#">View plans</a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <div class="intro">
-      <img src="./images/image-intro-mobile.jpg" alt="" />
-      <div class="intro-content">
-        <h1>Humanizing your insurance.</h1>
-        <p>
-          Get your life insurance coverage easier and faster. We blend our
-          expertise and technology to help you find the plan that’s right for
-          you. Ensure you and your loved ones are protected.
-        </p>
-        <a href="#" class="btn"> View plans </a>
+      <div class="intro-wrapper">
+        <img
+          src="./images/image-intro-mobile.jpg"
+          alt="4 people family holding hands"
+          class="image-intro-mobile"
+        />
+        <img
+          src="./images/image-intro-desktop.jpg"
+          alt="4 people family holding hands"
+          class="image-intro-desktop"
+        />
+        <div class="intro-content">
+          <hr />
+          <h1>Humanizing your insurance.</h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <a href="#" class="btn"> View plans </a>
+        </div>
       </div>
     </div>
     <div class="how-we-work">
@@ -72,7 +100,7 @@
         <div class="card">
           <img
             src="./images/icon-affordable-prices.svg"
-            alt="Affordabble Prices"
+            alt="Affordable Prices"
           />
           <h3>Affordable Prices</h3>
           <p>
@@ -81,7 +109,7 @@
           </p>
         </div>
         <div class="card">
-          <img src="./images/icon-people-first.svg" alt="Peolple first" />
+          <img src="./images/icon-people-first.svg" alt="People first" />
           <h3>People First</h3>
           <p>
             Our plans aren’t full of conditions and clauses to prevent payouts.
@@ -119,7 +147,7 @@
         <div class="footer-nav">
           <p>Our company</p>
           <ul>
-            <li><a href=""></a>How we work</a></li>
+            <li><a href="">How we work</a></li>
             <li><a href="">Why Insure?</a></li>
             <li><a href="">View plans</a></li>
             <li><a href="">Reviews</a></li>
@@ -147,9 +175,9 @@
         <div class="footer-nav">
           <p>Others</p>
           <ul>
-            <li>Careers</li>
-            <li>Press</li>
-            <li>Licenses</li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Licenses</a></li>
           </ul>
         </div>
       </div>
